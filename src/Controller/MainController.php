@@ -20,7 +20,7 @@ class MainController extends AbstractController
     public function contact(): Response
     {
         return $this->render('main/home.html.twig', [
-            'controller_name' => 'contact',
+            'controller_name' => 'contact ',
         ]);
     }
 }
